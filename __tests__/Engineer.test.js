@@ -13,3 +13,9 @@ test('tests getGithub()', () => {
 
     expect(engineer.getGithub('jaxonadams')).toBe('jaxonadams');
 });
+
+test('getRole() overwrites to engineer', () => {
+    const engineer = new Engineer('Jaxon', 54321, 'hey@this.com');
+
+    expect(engineer.getRole()).toBe('Engineer');
+});
