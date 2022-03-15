@@ -4,7 +4,7 @@
   "description": "A node app you can use to generate a team profile page",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/JaxonAdams/team-profile-generator/issues"
   },
-  "homepage": "https://github.com/JaxonAdams/team-profile-generator#readme"
+  "homepage": "https://github.com/JaxonAdams/team-profile-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.1"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
 }
