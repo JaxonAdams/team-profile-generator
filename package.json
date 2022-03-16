@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/JaxonAdams/team-profile-generator#readme",
   "dependencies": {
+    "bootstrap-icons": "^1.8.1",
     "inquirer": "^8.2.1"
   },
   "devDependencies": {
